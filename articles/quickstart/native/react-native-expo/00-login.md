@@ -79,7 +79,7 @@ Add the `react-native-auth0` plugin to the <a href="https://docs.expo.dev/workfl
 You must generate the native code for the above configuration to be set. To do this, run the following command:
 
 ```bash
-expo prebuild
+npx expo prebuild
 ```
 
 You will be prompted to provide the <a href="https://github.com/expo/fyi/blob/main/android-package.md" target="_blank" rel="noreferrer">Android package</a> and <a href="https://github.com/expo/fyi/blob/main/bundle-identifier.md" target="_blank" rel="noreferrer">iOS bundle identifier</a> if they are not already present in the Expo config:
